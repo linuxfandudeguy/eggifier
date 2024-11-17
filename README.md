@@ -1,6 +1,6 @@
-# sv
+# eggifier
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+ A stupid project idea I decided to come up with that replaces every single noun with "egg".
 
 ## Creating a project
 
