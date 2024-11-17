@@ -2,6 +2,10 @@
 
  A stupid project idea I decided to come up with that replaces every single noun with "egg".
 
+Also, technically my first AI project that actually ran smoothly as this uses `Compromise.js` for `NLP` (`Natural language Processing`).
+
+The reason why this is my first AI project that "ran successfully" is because every single time I try to make an AI project, it always never works.
+
 ## Running locally
 
  In order to run it locally, run these following commands
