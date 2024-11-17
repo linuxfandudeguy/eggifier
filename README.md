@@ -6,6 +6,7 @@ Also, technically my first AI project that actually ran smoothly as this uses `C
 
 The reason why this is my first AI project that "ran successfully" is because every single time I try to make an AI project, it always never works.
 
+
 ## Running locally
 
  In order to run it locally, run these following commands
@@ -19,14 +20,15 @@ bun dev -- --open
 
 In order to use this, Type any sentence with a noun (More nouns increases intensity) and click the "`Eggify!`" button.
 
-## Building
+![Screenshot 2024-11-17 11 32 26 AM](https://github.com/user-attachments/assets/95393838-43f6-4a61-811a-ed6ae7b69d1d)
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
+## Redploy
 
-You can preview the production build with `npm run preview`.
+If you want to redeploy it, click this button:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+[Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/linuxfandudeguy/eggifier)
+
+## Licence
+
+Licensed under MIT
