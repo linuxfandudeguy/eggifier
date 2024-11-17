@@ -2,28 +2,18 @@
 
  A stupid project idea I decided to come up with that replaces every single noun with "egg".
 
-## Creating a project
+## Running locally
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+ In order to run it locally, run these following commands
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone https://github.com/linuxfandudeguy/eggifier.git
+bun install
+bun dev -- --open
 ```
+## How to use
+
+In order to use this, Type any sentence with a noun (More nouns increases intensity) and click the "`Eggify!`" button.
 
 ## Building
 
