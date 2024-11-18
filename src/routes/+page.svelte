@@ -74,6 +74,3 @@
   {/if}
 </div>
 
-<head>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';">
-</head>
