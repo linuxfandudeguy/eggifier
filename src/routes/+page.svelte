@@ -4,6 +4,12 @@
   let sentence = '';
   let result = '';
 
+  function escapeHTML(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
   function eggify() {
     let modifiedSentence = sentence;
     const doc = nlp(sentence);
@@ -12,7 +18,6 @@
     doc.nouns().forEach(noun => {
       const nounText = noun.text();
 
-      // Check if the noun is all uppercase, lowercase, or titlecase
       if (nounText === nounText.toUpperCase()) {
         modifiedSentence = modifiedSentence.replace(nounText, "EGG"); // Uppercase
       } else if (nounText === nounText.toLowerCase()) {
@@ -22,7 +27,7 @@
       }
     });
 
-    result = modifiedSentence;
+    result = escapeHTML(modifiedSentence); // Escape before rendering
   }
 </script>
 
@@ -68,3 +73,7 @@
     </div>
   {/if}
 </div>
+
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';">
+</head>
