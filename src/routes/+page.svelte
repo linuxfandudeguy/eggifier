@@ -119,7 +119,7 @@
   <footer>
     <p>
       <a href="https://lelbois.wordpress.com/2024/11/21/eggifier-eggify-your-sentences/" target="_blank" rel="noopener noreferrer">
-WP
+        Read the article
       </a>
     </p>
   </footer>
@@ -127,15 +127,6 @@ WP
 
 <!-- No JavaScript message for browsers with JS disabled -->
 <noscript>
- 
-    <div class="no-js-overlay">
-      <div class="no-js-message">
-        <p>This application cannot work without JavaScript. Please enable JavaScript to use it.</p>
-      </div>
-    </div>
-  <![endif]-->
-  
-  <!-- For other browsers with JS disabled -->
   <div class="no-js-overlay">
     <div class="no-js-message">
       <p>This application cannot work without JavaScript. Please enable JavaScript to use it.</p>
