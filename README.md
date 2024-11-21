@@ -22,7 +22,7 @@ bun run preview
 
 In order to use this, Type any sentence with a noun (More nouns increases intensity) and click the "`Eggify!`" button.
 
-![Screenshot 2024-11-17 11 32 26 AM](https://github.com/user-attachments/assets/95393838-43f6-4a61-811a-ed6ae7b69d1d)
+![Screenshot 2024-11-21 7 59 14 AM](https://github.com/user-attachments/assets/46b3bf98-57cb-4b3d-8e2c-7705782796c4)
 
 
 ## Redploy
