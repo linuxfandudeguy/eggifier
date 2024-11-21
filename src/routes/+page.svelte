@@ -48,6 +48,23 @@
   .btn {
     width: 100%;
   }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+
+  footer a:hover {
+    color: #0056b3;
+  }
 </style>
 
 <div class="container">
@@ -72,5 +89,8 @@
       <p>{result}</p>
     </div>
   {/if}
-</div>
 
+  <footer>
+    <a href="https://lelbois.wordpress.com/2024/11/21/eggifier-eggify-your-sentences/" target="_blank" rel="noopener noreferrer">Read the article</a>
+  </footer>
+</div>
