@@ -38,22 +38,28 @@
     max-width: 600px;
     margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 60px; /* To ensure there's space for footer */
+    min-height: 100vh;
   }
+
   h1 {
     text-align: center;
   }
+
   .form-group {
     margin-bottom: 20px;
   }
+
   .btn {
     width: 100%;
   }
 
   footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: auto; /* Pushes the footer to the bottom */
     padding: 10px 0;
     background-color: #f8f9fa;
+    font-size: 12px; /* Smaller text */
   }
 
   footer a {
@@ -111,14 +117,17 @@
   {/if}
 
   <footer>
-    <a href="https://lelbois.wordpress.com/2024/11/21/eggifier-eggify-your-sentences/" target="_blank" rel="noopener noreferrer">Read the article</a>
+    <p>
+      <a href="https://lelbois.wordpress.com/2024/11/21/eggifier-eggify-your-sentences/" target="_blank" rel="noopener noreferrer">
+WP
+      </a>
+    </p>
   </footer>
 </div>
 
 <!-- No JavaScript message for browsers with JS disabled -->
 <noscript>
-  <!-- Conditional comment for old Internet Explorer versions -->
-  <!--[if lt IE 9 ]>
+ 
     <div class="no-js-overlay">
       <div class="no-js-message">
         <p>This application cannot work without JavaScript. Please enable JavaScript to use it.</p>
