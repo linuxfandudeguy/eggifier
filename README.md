@@ -13,8 +13,10 @@ The reason why this is my first AI project that "ran successfully" is because ev
 
 ```bash
 git clone https://github.com/linuxfandudeguy/eggifier.git
+cd eggifier
 bun install
-bun dev -- --open
+bun run build
+bun run preview
 ```
 ## How to use
 
