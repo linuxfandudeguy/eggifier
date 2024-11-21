@@ -65,11 +65,31 @@
   footer a:hover {
     color: #0056b3;
   }
+
+  /* Overlay for No JavaScript */
+  .no-js-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .no-js-message {
+    text-align: center;
+  }
 </style>
 
 <div class="container">
   <h1>Eggify Your Sentences! 🥚</h1>
-  
+
   <div class="form-group">
     <label for="sentenceInput">Enter a sentence</label>
     <input
@@ -80,9 +100,9 @@
       placeholder="Type a sentence here"
     />
   </div>
-  
+
   <button class="btn btn-primary" on:click={eggify}>Eggify!</button>
-  
+
   {#if result}
     <div class="mt-3">
       <h3>Processed Sentence:</h3>
@@ -94,3 +114,22 @@
     <a href="https://lelbois.wordpress.com/2024/11/21/eggifier-eggify-your-sentences/" target="_blank" rel="noopener noreferrer">Read the article</a>
   </footer>
 </div>
+
+<!-- No JavaScript message for browsers with JS disabled -->
+<noscript>
+  <!-- Conditional comment for old Internet Explorer versions -->
+  <!--[if lt IE 9 ]>
+    <div class="no-js-overlay">
+      <div class="no-js-message">
+        <p>This application cannot work without JavaScript. Please enable JavaScript to use it.</p>
+      </div>
+    </div>
+  <![endif]-->
+  
+  <!-- For other browsers with JS disabled -->
+  <div class="no-js-overlay">
+    <div class="no-js-message">
+      <p>This application cannot work without JavaScript. Please enable JavaScript to use it.</p>
+    </div>
+  </div>
+</noscript>
