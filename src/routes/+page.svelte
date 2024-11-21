@@ -115,14 +115,6 @@
       <p>{result}</p>
     </div>
   {/if}
-
-  <footer>
-    <p>
-      <a href="https://lelbois.wordpress.com/2024/11/21/eggifier-eggify-your-sentences/" target="_blank" rel="noopener noreferrer">
-        Read the article
-      </a>
-    </p>
-  </footer>
 </div>
 
 <!-- No JavaScript message for browsers with JS disabled -->
