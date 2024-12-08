@@ -11,6 +11,7 @@
   }
 
   function eggify() {
+    console.log("eggified");
     let modifiedSentence = sentence;
     const doc = nlp(sentence);
 
