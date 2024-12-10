@@ -1,5 +1,7 @@
 # eggifier
 
+[![Eggifier project on code sandbox](https://github.com/user-attachments/assets/0e3a2d1d-4ded-4942-b1d8-8fb45455bbab)](https://codesandbox.io/p/github/linuxfandudeguy/eggifier/master?import=true)
+
  A stupid project idea I decided to come up with that replaces every single noun with "egg".
 
 Also, technically my first AI project that actually ran smoothly as this uses `Compromise.js` for `NLP` (`Natural language Processing`).
