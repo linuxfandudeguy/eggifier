@@ -15,20 +15,20 @@
     let modifiedSentence = sentence;
     const doc = nlp(sentence);
 
-    // Replace every noun with the word "egg", maintaining case
+    // replace every noun with the word "egg"
     doc.nouns().forEach(noun => {
       const nounText = noun.text();
 
       if (nounText === nounText.toUpperCase()) {
-        modifiedSentence = modifiedSentence.replace(nounText, "EGG"); // Uppercase
+        modifiedSentence = modifiedSentence.replace(nounText, "EGG"); // uppercase
       } else if (nounText === nounText.toLowerCase()) {
-        modifiedSentence = modifiedSentence.replace(nounText, "egg"); // Lowercase
+        modifiedSentence = modifiedSentence.replace(nounText, "egg"); // lowercase
       } else if (nounText[0] === nounText[0].toUpperCase()) {
-        modifiedSentence = modifiedSentence.replace(nounText, "Egg"); // Titlecase
+        modifiedSentence = modifiedSentence.replace(nounText, "Egg"); // titlecase
       }
     });
 
-    result = escapeHTML(modifiedSentence); // Escape before rendering
+    result = escapeHTML(modifiedSentence); // escape the html in order to get rid of xss
   }
 </script>
 
@@ -39,7 +39,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding-top: 50px;
-    padding-bottom: 60px; /* To ensure there's space for footer */
+    padding-bottom: 60px; 
     min-height: 100vh;
   }
 
@@ -57,10 +57,10 @@
 
   footer {
     text-align: center;
-    margin-top: auto; /* Pushes the footer to the bottom */
+    margin-top: auto; 
     padding: 10px 0;
     background-color: #f8f9fa;
-    font-size: 12px; /* Smaller text */
+    font-size: 12px; 
   }
 
   footer a {
@@ -73,7 +73,7 @@
     color: #0056b3;
   }
 
-  /* Overlay for No JavaScript */
+ 
   .no-js-overlay {
     position: fixed;
     top: 0;
@@ -118,7 +118,7 @@
   {/if}
 </div>
 
-<!-- No JavaScript message for browsers with JS disabled -->
+<!-- no js message for browsers with js disabled -->
 <noscript>
   <div class="no-js-overlay">
     <div class="no-js-message">
