@@ -24,12 +24,12 @@ bun run preview
 
 In order to use this, Type any sentence with a noun (More nouns increases intensity) and click the "`Eggify!`" button.
 
-![Screenshot 2024-11-21 7 59 14 AM](https://github.com/user-attachments/assets/46b3bf98-57cb-4b3d-8e2c-7705782796c4)
+![Screenshot 2024-12-16 6 59 26 PM](https://github.com/user-attachments/assets/0546dab3-e85d-40c4-a710-9e14db780589)
 
 
 ## Redploy
 
-If you want to redeploy it, click this button:
+If you want to redeploy it, click this link:
 
 [Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/linuxfandudeguy/eggifier)
 
