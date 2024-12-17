@@ -1,4 +1,5 @@
 <script>
+  'use strict';
   import nlp from 'compromise';
 
   let sentence = '';
